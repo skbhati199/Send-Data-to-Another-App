@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simple App Sending Data to Another Apps</string>
+    <string name="send_to">Send To</string>
+</resources>
