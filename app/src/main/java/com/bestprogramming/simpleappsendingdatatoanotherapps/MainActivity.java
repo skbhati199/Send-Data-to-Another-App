@@ -75,18 +75,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 message = editTextMessage.getText().toString();
 
                 final Intent emailIntent = new Intent(
-                        android.content.Intent.ACTION_SEND);
-                emailIntent.setType("plain/text");
-                emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL,
-                        new String[] { email });
-                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
-                        subject);
+                        Intent.ACTION_SEND);
+                emailIntent.setType("image/jpeg");
+               /* emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL,
+                        new String[] { email });*/
+                /*emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
+                        subject);*/
                 if (URI != null) {
                     emailIntent.putExtra(Intent.EXTRA_STREAM, URI);
                 }
-                emailIntent
+                /*emailIntent
                         .putExtra(android.content.Intent.EXTRA_TEXT, message);
-                this.startActivity(Intent.createChooser(emailIntent,
+                */this.startActivity(Intent.createChooser(emailIntent,
                         "Sending email..."));
 
             } catch (Throwable t) {
