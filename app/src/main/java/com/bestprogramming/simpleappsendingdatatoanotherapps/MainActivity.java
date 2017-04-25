@@ -1,32 +1,23 @@
 package com.bestprogramming.simpleappsendingdatatoanotherapps;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
 import android.net.Uri;
+import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private static final int PICK_FROM_GALLERY = 101;
     EditText editTextEmail, editTextSubject, editTextMessage;
     Button btnSend, btnAttachment;
     String email, subject, message, attachmentFile;
     Uri URI = null;
-    private static final int PICK_FROM_GALLERY = 101;
     int columnIndex;
 
     @Override
@@ -75,18 +66,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 message = editTextMessage.getText().toString();
 
                 final Intent emailIntent = new Intent(
-                        android.content.Intent.ACTION_SEND);
-                emailIntent.setType("plain/text");
-                emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL,
-                        new String[] { email });
-                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
-                        subject);
+                        Intent.ACTION_SEND);
+                
+                emailIntent.setType("image/jpeg");
+               /* emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL,
+                        new String[] { email });*/
+                /*emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
+                        subject);*/
                 if (URI != null) {
                     emailIntent.putExtra(Intent.EXTRA_STREAM, URI);
                 }
-                emailIntent
+                /*emailIntent
                         .putExtra(android.content.Intent.EXTRA_TEXT, message);
-                this.startActivity(Intent.createChooser(emailIntent,
+                */this.startActivity(Intent.createChooser(emailIntent,
                         "Sending email..."));
 
             } catch (Throwable t) {
