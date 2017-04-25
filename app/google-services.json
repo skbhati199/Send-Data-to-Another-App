@@ -1,0 +1,280 @@
+{
+  "project_info": {
+    "project_number": "749312866914",
+    "firebase_url": "https://fir-app-6ac9e.firebaseio.com",
+    "project_id": "fir-app-6ac9e",
+    "storage_bucket": "fir-app-6ac9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:b5d75907de594a2d",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-anncoji15ae6k566lukn0fjopjvf9rcr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.codelab.friendlychat",
+            "certificate_hash": "9cd95fcb1ce009e8e019e4027e2a052f06b16c89"
+          }
+        },
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:044d1236125f4e35",
+        "android_client_info": {
+          "package_name": "com.fitness.anthem.gym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:e2811fb5ee01f37b",
+        "android_client_info": {
+          "package_name": "com.skbhati.happyrosedaywallper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:c236bc26c91d90a2",
+        "android_client_info": {
+          "package_name": "com.skbhati.happyrosedaywallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-8g6rctsdmt5kq621m61mu4qn8l4hm9vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skbhati.happyrosedaywallpapers",
+            "certificate_hash": "9cd95fcb1ce009e8e019e4027e2a052f06b16c89"
+          }
+        },
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:1d16fdecb7bc60f0",
+        "android_client_info": {
+          "package_name": "com.skbhati.jioprimeandnonprimemembersplans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-54khigvbjhrsjuuv9jqh8scnvvfjrdki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skbhati.jioprimeandnonprimemembersplans",
+            "certificate_hash": "9cd95fcb1ce009e8e019e4027e2a052f06b16c89"
+          }
+        },
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:883051a04e89cbe3",
+        "android_client_info": {
+          "package_name": "com.bestprogramming.cricketliveipl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-6m8c6rs0pai0v93rh8t76nn613vjkatf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bestprogramming.cricketliveipl",
+            "certificate_hash": "9cd95fcb1ce009e8e019e4027e2a052f06b16c89"
+          }
+        },
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749312866914:android:259980feb57d027a",
+        "android_client_info": {
+          "package_name": "com.bestprogramming.simpleappsendingdatatoanotherapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749312866914-ck8qbqtqkvi556im9hb712t3dghnjoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVFNy2EQv0rwXBsr_eBhIx_z3rcxD0XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

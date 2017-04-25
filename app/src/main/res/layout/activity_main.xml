@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
-        android:padding="5dp" >
+        android:padding="5dp">
 
         <EditText
             android:id="@+id/editTextTo"
@@ -42,13 +42,35 @@
             android:hint="type message here!"
             android:inputType="textMultiLine" />
 
-        <Button
-            android:id="@+id/buttonSend"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
+        <LinearLayout
             android:layout_below="@id/editTextMessage"
-            android:layout_margin="5dp"
-            android:text="Send" />
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/buttonSend"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="5dp"
+                android:text="Send" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="Upload" />
+
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="Download" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/buttonAttachment"
@@ -57,6 +79,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:text="attachment" />
+
     </RelativeLayout>
 
 </ScrollView>
